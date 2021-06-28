@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
+
+    <script defer src="src/js/cart.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="/src/css/cart.css">
+</head>
+
+<body>
+
+    <a href="/">Back</a>
+    <h2>Select Products</h2>
+    <section class="cart-container">
+        <div class="img-container">
+            <div class="circle">
+                <img src="/src/images/greenperfume.png" alt="">
+                <img src="/src/images/perfume2.png" alt="">
+                <img src="/src/images/perfume3.png" alt="">
+            </div>
+            <button class="left-btn">
+                < </button>
+                    <button class="right-btn">></button>
+        </div>
+        <div class="perfume-detail">
+
+            <div class="circle-2">
+
+                <article>
+                    <div>
+                        <h2>Channel Green</h2>
+                        <p><em>The longest lasting fragrance</em></p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="decrease">-</button>
+                        <span>0</span>
+                        <button class="increase">+</button>
+                    </div>
+                    <img src="/src/images/cart.png" alt="">
+                </article>
+
+                <article>
+                    <div>
+                        <h2>Channel Blue</h2>
+                        <p><em>Erotic Fragrance for the parties</em></p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="decrease">-</button>
+                        <span>0</span>
+                        <button class="increase">+</button>
+                    </div>
+                    <img src="/src/images/cart.png" alt="">
+                </article>
+
+                <article>
+                    <div>
+                        <h2>N 5 Chanel</h2>
+                        <p><em>Sweet Fragrance</em></p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="decrease">-</button>
+                        <span>0</span>
+                        <button class="increase">+</button>
+                    </div>
+                    <img src="/src/images/cart.png" alt="">
+                </article>
+            </div>
+
+        </div>
+    </section>
+    <div class="background"></div>
+</body>
+
+</html>
